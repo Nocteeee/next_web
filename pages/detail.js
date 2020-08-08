@@ -29,7 +29,7 @@ const Detail = ({state}) => {
                 <link href="https://css.gg/css?=|time" rel="stylesheet" />
                 <link href='https://css.gg/box.css' rel='stylesheet' />
             </Head>
-            <div className="m-auto w-9/12 bg-white pt-15 rounded-lg">
+            <div className="max-w-4xl m-auto w-9/12 bg-white pt-15 rounded-lg">
                 <p className='font-bold text-3xl text-gray-800 text-center detail-title'>{state.title}</p>
                 <p className="flex justify-center text-gray-600 mt-2 text-center">
                     <span className="flex flex-row items-center mr-3">
