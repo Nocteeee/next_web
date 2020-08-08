@@ -2,6 +2,7 @@
 import '../public/css/style.css'
 import Header from '../component/header'
 import Footer from '../component/footer'
+import 'highlight.js/styles/monokai-sublime.css';
 
 
 

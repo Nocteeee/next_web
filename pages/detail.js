@@ -4,7 +4,7 @@ import Api from '../public/utils/api'
 import axios from 'axios'
 import hljs from "highlight.js";
 import marked from 'marked'
-import 'highlight.js/styles/monokai-sublime.css';
+
 
 const renderer = new marked.Renderer();
 marked.setOptions({

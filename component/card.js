@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import hljs from "highlight.js";
 import marked from 'marked'
-import 'highlight.js/styles/monokai-sublime.css';
 
 marked.setOptions({
     renderer: new marked.Renderer(),
