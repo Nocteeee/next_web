@@ -1,5 +1,5 @@
-const baseurl = 'http://localhost:1717/api/'
+const baseurl = 'http://localhost:1919/admin/'
 module.exports = {
-    getArticleList: baseurl + 'article/getList',
-    detailArticle: baseurl + 'article/getById', //编辑文章
+    getArticleList: baseurl + 'web/articleList',
+    detailArticle: baseurl + 'web/getArticleById', //编辑文章
 }
