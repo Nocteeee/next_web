@@ -2,6 +2,7 @@
 import '../public/css/style.css'
 import Header from '../component/header'
 import Footer from '../component/footer'
+import Head from 'next/head'
 import 'highlight.js/styles/monokai-sublime.css';
 
 
@@ -10,6 +11,9 @@ import 'highlight.js/styles/monokai-sublime.css';
 export default function MyApp({ Component, pageProps }) {
   return (
     <div>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Header />
       <Component {...pageProps} />
       <Footer />
