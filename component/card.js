@@ -20,7 +20,7 @@ export default class Card extends React.Component {
         return (
             <div>
                 {this.props.list.map(item =>
-                    <div className="max-w-4xl px-8 py-4 mx-auto bg-white rounded-lg shadow-md mt-2" key={item.id}>
+                    <div className="px-8 py-4 bg-white rounded-lg shadow-md mt-2" key={item.id}>
                         <div className="flex items-center justify-between">
                             <span className="text-sm font-light text-gray-600">{item.create_time.split(' ')[0]}</span>
                             <a className="px-3 py-1 text-sm font-bold text-gray-100 bg-gray-600 rounded">Design</a>

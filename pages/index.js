@@ -10,7 +10,6 @@ export default class Home extends React.Component {
         return { state : result.data }
     }
     render() {
-        const list = []
         return (
             <div>
                 <Head>
@@ -19,7 +18,7 @@ export default class Home extends React.Component {
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
                     <meta name="description" content="关注web前端技术-前端学习总结博客"/>
                 </Head>
-                <div className="m-auto w-11/12 mt-4">
+                <div className="max-w-3xl mx-auto mt-4">
                     <Card list={ this.props.state.data } />
                 </div>
             </div>

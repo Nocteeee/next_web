@@ -20,13 +20,13 @@ marked.setOptions({
         return hljs.highlightAuto(code).value;
     }
 });
-const Detail = ({state}) => {
+const Detail = ({ state }) => {
     return (
         <div>
             <Head>
                 <title>{state.title}</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
-                <meta name="description" content={ state.title }/>
+                <meta name="description" content={state.title} />
                 <link href="https://css.gg/css?=|time" rel="stylesheet" />
                 <link href='https://css.gg/box.css' rel='stylesheet' />
             </Head>
